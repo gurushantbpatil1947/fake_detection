@@ -1,0 +1,6 @@
+{
+  "name": "TruthGuard – AI-Powered Fake News Detection System",
+  "description": "Advanced AI and NLP news credibility analysis platform with multi-stage text processing, TF-IDF feature extraction, and explainable AI insights powered by Google Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

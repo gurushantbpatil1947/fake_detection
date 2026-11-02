@@ -1,0 +1,427 @@
+{
+  "users": [
+    {
+      "_id": "user_1793594441375_5dnk08",
+      "name": "Alex FactChecker",
+      "email": "alex@example.com",
+      "passwordHash": "$2b$10$sudNXvrMKst9NzsBrznLoun1RluC8P.VhrbpurXSuX1DsSCEGAKqG",
+      "role": "user",
+      "createdAt": "2026-11-02T04:40:41.375Z"
+    }
+  ],
+  "analyses": [
+    {
+      "headline": "Scientists discover new deep ocean hydrothermal vent system with unique ecosystems",
+      "articleText": "Marine biologists aboard the NOAA research vessel discovered a previously uncharted hydrothermal vent field at 3,200 meters depth in the Pacific. Geochemical analysis published in Nature confirmed novel thermophilic microbial colonies.",
+      "classification": "Likely Credible",
+      "modelConfidence": 0.92,
+      "confidenceLabel": "High model confidence",
+      "explanation": "The text presents matter-of-fact scientific reporting without sensationalism, emotive language, or clickbait framing. It references verifiable scientific entities and research bodies (NOAA, Nature), specific oceanographic measurements (3,200 meters depth in the Pacific), and standard biogeochemical findings (thermophilic microbial colonies). The neutral linguistic tone and presence of verifiable academic citations align with credible science journalism standards.",
+      "suspiciousPhrases": [],
+      "manipulationTechniques": [],
+      "keyClaims": [
+        "Marine biologists aboard a NOAA research vessel discovered an uncharted hydrothermal vent field at 3,200 meters depth in the Pacific Ocean.",
+        "Geochemical analysis confirming novel thermophilic microbial colonies was published in the peer-reviewed journal Nature."
+      ],
+      "evidenceSources": [
+        {
+          "title": "Hydrothermal Vent Research and Ocean Exploration Data",
+          "sourceName": "National Oceanic and Atmospheric Administration (NOAA) Ocean Exploration",
+          "credibilityTier": "High",
+          "note": "Primary institutional data repository for oceanographic expedition logs, submersible dives, and seabed discoveries.",
+          "url": "https://oceanexplorer.noaa.gov"
+        },
+        {
+          "title": "Deep-sea Microbiology and Geochemistry Research Archive",
+          "sourceName": "Nature",
+          "credibilityTier": "High",
+          "note": "Peer-reviewed scientific journal repository containing original manuscripts on hydrothermal ecosystems and thermophilic microbes.",
+          "url": "https://www.nature.com"
+        }
+      ],
+      "recommendedVerificationSteps": [
+        "Search the Nature digital library for recent papers describing hydrothermal vent discoveries at 3,200 meters depth in the Pacific.",
+        "Check NOAA Ocean Exploration mission logs for expedition records detailing the vessel name, dive coordinates, and research team.",
+        "Confirm with independent oceanographic institutions (such as Woods Hole Oceanographic Institution or MBARI) for coverage of the vent field discovery."
+      ],
+      "limitations": "The model cannot query live, proprietary, or embargoed scientific databases to confirm specific expedition logs or manuscript DOI codes in real time without direct web links or exact journal citations.",
+      "publisherInfo": {
+        "name": "Unspecified Publisher",
+        "domain": "N/A",
+        "reliabilityRating": "Unverified",
+        "notes": "No specific publisher or domain was provided; evaluation is based on textual content and referenced institutions."
+      },
+      "nlpMetrics": {
+        "sensationalScore": 0,
+        "clickbaitScore": 0,
+        "attributionScore": 30,
+        "readabilityGrade": "Brief Claim",
+        "wordCount": 43,
+        "sentenceCount": 2,
+        "allCapsRatio": 0.023,
+        "exclamationDensity": 0,
+        "topTfidfTerms": [
+          {
+            "term": "hydrothermal",
+            "score": 0.079
+          },
+          {
+            "term": "vent",
+            "score": 0.079
+          },
+          {
+            "term": "published",
+            "score": 0.05
+          },
+          {
+            "term": "3",
+            "score": 0.039
+          },
+          {
+            "term": "200",
+            "score": 0.039
+          }
+        ]
+      },
+      "modelPipeline": {
+        "tfidfScore": 0.481,
+        "naiveBayesScore": 0.305,
+        "logisticRegressionScore": 0.377,
+        "geminiReasoningScore": 0.15,
+        "geminiUsed": true,
+        "pipelineLatencyMs": 23424
+      },
+      "_id": "analysis_1793594433864_lf56993",
+      "createdAt": "2026-11-02T04:40:33.864Z"
+    },
+    {
+      "_id": "tg-seed-001",
+      "headline": "James Webb Space Telescope Identifies Oldest Galaxy Candidates to Date",
+      "articleText": "Astronomers using data from the NASA/ESA/CSA James Webb Space Telescope have published peer-reviewed findings in the Astrophysical Journal identifying candidate galaxies that formed just 300 million years after the Big Bang. Spectroscopic confirmation by international research teams verified high redshift spectral markers z=14.32, according to project leads at the Space Telescope Science Institute.",
+      "sourceUrl": "https://nasa.gov/mission_pages/webb/discoveries/oldest-galaxies",
+      "classification": "Likely Credible",
+      "modelConfidence": 0.94,
+      "confidenceLabel": "High model confidence",
+      "explanation": "The article exhibits rigorous journalistic standards: citations of peer-reviewed literature in the Astrophysical Journal, naming verified institutional leads at STScI, precise scientific terminology without sensationalized hyperbole, and verifiable spectroscopic observational parameters.",
+      "suspiciousPhrases": [],
+      "manipulationTechniques": [
+        "None detected: neutral, evidence-grounded attribution"
+      ],
+      "keyClaims": [
+        "JWST detected candidate galaxies formed 300 million years post-Big Bang",
+        "Findings peer-reviewed in Astrophysical Journal",
+        "Spectroscopic redshift verified at z=14.32"
+      ],
+      "evidenceSources": [
+        {
+          "title": "NASA JWST Mission Observations Archive",
+          "url": "https://nasa.gov",
+          "sourceName": "NASA / STScI",
+          "credibilityTier": "High",
+          "note": "Primary scientific space agency repository"
+        },
+        {
+          "title": "Astrophysical Journal Redshift Analysis",
+          "url": "https://iopscience.iop.org",
+          "sourceName": "The Astrophysical Journal",
+          "credibilityTier": "High",
+          "note": "Peer-reviewed academic astrophysics publication"
+        }
+      ],
+      "recommendedVerificationSteps": [
+        "Inspect official NASA STScI mission releases",
+        "Cross-check DOI in Astrophysical Journal indexed databases"
+      ],
+      "limitations": "Model assessed linguistic credibility, institutional named entities, and lack of sensationalism. Independent astrophysical verification depends on continued peer spectroscopy.",
+      "publisherInfo": {
+        "name": "NASA Science Releases",
+        "domain": "nasa.gov",
+        "reliabilityRating": "High Reputation",
+        "notes": "Official space agency press archive"
+      },
+      "nlpMetrics": {
+        "sensationalScore": 4,
+        "clickbaitScore": 2,
+        "attributionScore": 96,
+        "readabilityGrade": "College Level",
+        "wordCount": 54,
+        "sentenceCount": 2,
+        "allCapsRatio": 0.04,
+        "exclamationDensity": 0,
+        "topTfidfTerms": [
+          {
+            "term": "astronomers",
+            "score": 0.42
+          },
+          {
+            "term": "spectroscopic",
+            "score": 0.39
+          },
+          {
+            "term": "peer-reviewed",
+            "score": 0.35
+          }
+        ]
+      },
+      "modelPipeline": {
+        "tfidfScore": 0.08,
+        "naiveBayesScore": 0.06,
+        "logisticRegressionScore": 0.07,
+        "geminiReasoningScore": 0.04,
+        "geminiUsed": true,
+        "pipelineLatencyMs": 340
+      },
+      "createdAt": "2026-10-31T04:40:05.013Z"
+    },
+    {
+      "_id": "tg-seed-002",
+      "headline": "SHOCKING SECRET: Secret cure discovered that Big Pharma is desperately trying to BAN!",
+      "articleText": "Doctors are FURIOUS because this simple backyard root cleanses 100% of toxins overnight! Mainstream medicine has been hiding this miracle solution from the public for over 50 years to protect their trillion-dollar profits. Whistleblowers have leaked the hidden recipe before authorities censor it completely. Act now before this page is deleted forever!",
+      "sourceUrl": "https://unknown-natural-miracles-today.xyz/secret-cure",
+      "classification": "Likely False",
+      "modelConfidence": 0.98,
+      "confidenceLabel": "Very high model confidence",
+      "explanation": "Contains overwhelming markers of predatory pseudo-medical disinformation: emotional panic, conspiracy tropes (\"Big Pharma hiding it\"), unverified claims (\"100% guaranteed toxins cleanse overnight\"), artificial urgency (\"before this page is deleted\"), and zero identifiable medical sources or peer-reviewed clinical trials.",
+      "suspiciousPhrases": [
+        "SHOCKING SECRET",
+        "100% of toxins overnight",
+        "hiding this miracle solution",
+        "Whistleblowers have leaked",
+        "Act now before this page is deleted forever"
+      ],
+      "manipulationTechniques": [
+        "Conspiracy Narrative (Suppression by Authorities)",
+        "False Urgency & Scarcity Pressure",
+        "Absolute Guarantees (100% Cure)",
+        "Loaded Alarmist Language",
+        "Anonymous Whistleblower Hearsay"
+      ],
+      "keyClaims": [
+        "Backyard root cures all toxins overnight with 100% efficacy",
+        "Mainstream medical industry suppressed recipe for 50 years"
+      ],
+      "evidenceSources": [
+        {
+          "title": "WHO Public Health Advisory on Medical Misinformation",
+          "url": "https://who.int",
+          "sourceName": "World Health Organization",
+          "credibilityTier": "High",
+          "note": "Warns against unregulated miracle cure claims and false suppression narratives"
+        },
+        {
+          "title": "FDA Health Fraud Alert Registry",
+          "url": "https://fda.gov",
+          "sourceName": "US FDA",
+          "credibilityTier": "High",
+          "note": "Commonly flags herbal backyard cure scams"
+        }
+      ],
+      "recommendedVerificationSteps": [
+        "Check FDA or EMA database for registered therapeutic clinical trials",
+        "Consult licensed medical physicians before consuming unverified substances",
+        "Search WHO and PubMed for any peer-reviewed toxicology reviews"
+      ],
+      "limitations": "Linguistic and rhetorical pattern analysis strongly correlates with commercial supplement fraud. No empirical lab testing of physical product conducted.",
+      "publisherInfo": {
+        "name": "Unknown-Natural-Miracles",
+        "domain": "unknown-natural-miracles-today.xyz",
+        "reliabilityRating": "Known Disinformation",
+        "notes": "Unregistered spam/affiliate marketing portal"
+      },
+      "nlpMetrics": {
+        "sensationalScore": 98,
+        "clickbaitScore": 95,
+        "attributionScore": 0,
+        "readabilityGrade": "Middle School",
+        "wordCount": 57,
+        "sentenceCount": 4,
+        "allCapsRatio": 0.16,
+        "exclamationDensity": 0.08,
+        "topTfidfTerms": [
+          {
+            "term": "miracle",
+            "score": 0.65
+          },
+          {
+            "term": "secret",
+            "score": 0.58
+          },
+          {
+            "term": "censor",
+            "score": 0.49
+          },
+          {
+            "term": "toxins",
+            "score": 0.44
+          }
+        ]
+      },
+      "modelPipeline": {
+        "tfidfScore": 0.94,
+        "naiveBayesScore": 0.96,
+        "logisticRegressionScore": 0.95,
+        "geminiReasoningScore": 0.98,
+        "geminiUsed": true,
+        "pipelineLatencyMs": 410
+      },
+      "createdAt": "2026-11-01T04:40:05.014Z"
+    },
+    {
+      "_id": "tg-seed-003",
+      "headline": "Central Bank Announces Interest Rates Will Be Cut by 300 Basis Points Next Month",
+      "articleText": "An anonymous insider familiar with central bank discussions leaked that benchmark lending rates will drop drastically by 300 basis points in the upcoming scheduled monetary committee meeting. While official spokespeople declined to verify the timeline, market speculators have already begun pricing in the unprecedented easing cycle.",
+      "sourceUrl": "https://finance-rumors-blog.net/post/central-bank-cut",
+      "classification": "Potentially Misleading",
+      "modelConfidence": 0.82,
+      "confidenceLabel": "High model confidence",
+      "explanation": "The article presents speculative market hearsay as an established upcoming policy. It relies entirely on an unnamed \"insider familiar with discussions\" while acknowledging that official central bank representatives refused to confirm the claim. A single-meeting 300 bps rate cut is historically extreme and uncorroborated by published committee minutes.",
+      "suspiciousPhrases": [
+        "anonymous insider familiar with central bank discussions",
+        "official spokespeople declined to verify",
+        "unprecedented easing cycle"
+      ],
+      "manipulationTechniques": [
+        "Unattributed Insider Sourcing",
+        "Definitive Headline for Speculative Rumor",
+        "Clickbait Financial Sensationalism"
+      ],
+      "keyClaims": [
+        "Central bank planned a 300 basis point rate reduction for next month",
+        "Anonymous source provided details without official bank confirmation"
+      ],
+      "evidenceSources": [
+        {
+          "title": "Federal Reserve / ECB Monetary Policy Calendar & Releases",
+          "url": "https://federalreserve.gov",
+          "sourceName": "Central Banking Authority",
+          "credibilityTier": "High",
+          "note": "Official statements reflect scheduled deliberative consensus, not single-insider leaks"
+        },
+        {
+          "title": "Bloomberg & Reuters Financial Fact Check Desk",
+          "url": "https://reuters.com",
+          "sourceName": "Reuters Fact Check",
+          "credibilityTier": "High",
+          "note": "Tracks monetary policy rumors vs scheduled committee statements"
+        }
+      ],
+      "recommendedVerificationSteps": [
+        "Wait for official Federal Reserve / ECB monetary policy statement",
+        "Check official economic calendars for committee meeting dates and consensus polls",
+        "Review statements by voting board governors rather than anonymous rumors"
+      ],
+      "limitations": "Model assessed sourcing hygiene, institutional probability, and linguistic framing. Official policy cannot be confirmed until central bank publication.",
+      "publisherInfo": {
+        "name": "Finance Rumors Blog",
+        "domain": "finance-rumors-blog.net",
+        "reliabilityRating": "Mixed / Satire",
+        "notes": "Speculative blog platform with no formal editorial oversight"
+      },
+      "nlpMetrics": {
+        "sensationalScore": 68,
+        "clickbaitScore": 74,
+        "attributionScore": 28,
+        "readabilityGrade": "High School",
+        "wordCount": 46,
+        "sentenceCount": 2,
+        "allCapsRatio": 0.02,
+        "exclamationDensity": 0,
+        "topTfidfTerms": [
+          {
+            "term": "insider",
+            "score": 0.52
+          },
+          {
+            "term": "speculators",
+            "score": 0.44
+          },
+          {
+            "term": "rumors",
+            "score": 0.41
+          }
+        ]
+      },
+      "modelPipeline": {
+        "tfidfScore": 0.65,
+        "naiveBayesScore": 0.72,
+        "logisticRegressionScore": 0.7,
+        "geminiReasoningScore": 0.78,
+        "geminiUsed": true,
+        "pipelineLatencyMs": 380
+      },
+      "createdAt": "2026-11-01T16:40:05.014Z"
+    },
+    {
+      "_id": "tg-seed-004",
+      "headline": "Local Municipal Council Approves Park Renovation Budget for Q3",
+      "articleText": "The City Council voted 7 to 2 yesterday to allocate $450,000 towards upgrading walking trails and replacing lighting in Riverside Park. Public hearings were held over three weeks, with the municipal engineering bureau outlining project milestones expected to complete by late autumn.",
+      "sourceUrl": "https://riversidegazette.org/council-approves-park-renovation",
+      "classification": "Likely Credible",
+      "modelConfidence": 0.96,
+      "confidenceLabel": "Very high model confidence",
+      "explanation": "Factual civic reporting featuring transparent council voting tallies (7 to 2), specific realistic financial appropriations ($450,000), reference to public municipal hearings, and a calm, objective journalistic tone devoid of hyperbole or emotional appeals.",
+      "suspiciousPhrases": [],
+      "manipulationTechniques": [
+        "None: standard local government reporting"
+      ],
+      "keyClaims": [
+        "City Council approved $450,000 budget with 7-2 vote for Riverside Park",
+        "Renovations cover walking trails and lighting",
+        "Completion slated for late autumn"
+      ],
+      "evidenceSources": [
+        {
+          "title": "Municipal Council Official Minutes & Voting Records",
+          "url": "https://riverside.gov/minutes",
+          "sourceName": "City Council Archive",
+          "credibilityTier": "High",
+          "note": "Public record of council vote and fiscal resolutions"
+        }
+      ],
+      "recommendedVerificationSteps": [
+        "Check city council public records portal for meeting minutes",
+        "Review municipal budget balance sheet"
+      ],
+      "limitations": "Model evaluated local reporting conventions and balanced factual framing.",
+      "publisherInfo": {
+        "name": "Riverside Gazette",
+        "domain": "riversidegazette.org",
+        "reliabilityRating": "High Reputation",
+        "notes": "Local community newspaper with editorial accountability"
+      },
+      "nlpMetrics": {
+        "sensationalScore": 2,
+        "clickbaitScore": 0,
+        "attributionScore": 92,
+        "readabilityGrade": "Grade 9",
+        "wordCount": 43,
+        "sentenceCount": 2,
+        "allCapsRatio": 0.01,
+        "exclamationDensity": 0,
+        "topTfidfTerms": [
+          {
+            "term": "council",
+            "score": 0.55
+          },
+          {
+            "term": "allocate",
+            "score": 0.48
+          },
+          {
+            "term": "hearings",
+            "score": 0.42
+          }
+        ]
+      },
+      "modelPipeline": {
+        "tfidfScore": 0.04,
+        "naiveBayesScore": 0.05,
+        "logisticRegressionScore": 0.05,
+        "geminiReasoningScore": 0.03,
+        "geminiUsed": true,
+        "pipelineLatencyMs": 290
+      },
+      "createdAt": "2026-11-01T22:40:05.014Z"
+    }
+  ]
+}
